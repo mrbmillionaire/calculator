@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E0341AD1D11CF7E004701AC /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0341AC1D11CF7E004701AC /* Calculator.m */; };
 		1EF2D3601D108123006C2BE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF2D35F1D108123006C2BE2 /* main.m */; };
 		1EF2D3631D108123006C2BE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF2D3621D108123006C2BE2 /* AppDelegate.m */; };
 		1EF2D3661D108123006C2BE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF2D3651D108123006C2BE2 /* ViewController.m */; };
@@ -36,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E0341AB1D11CF7E004701AC /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
-		1E0341AC1D11CF7E004701AC /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		1EF2D35B1D108123006C2BE2 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF2D35F1D108123006C2BE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EF2D3611D108123006C2BE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,8 +104,6 @@
 				1EF2D3611D108123006C2BE2 /* AppDelegate.h */,
 				1EF2D3621D108123006C2BE2 /* AppDelegate.m */,
 				1EF2D3641D108123006C2BE2 /* ViewController.h */,
-				1E0341AB1D11CF7E004701AC /* Calculator.h */,
-				1E0341AC1D11CF7E004701AC /* Calculator.m */,
 				1EF2D3651D108123006C2BE2 /* ViewController.m */,
 				1EF2D3671D108123006C2BE2 /* Main.storyboard */,
 				1EF2D36A1D108123006C2BE2 /* Assets.xcassets */,
@@ -276,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EF2D3661D108123006C2BE2 /* ViewController.m in Sources */,
-				1E0341AD1D11CF7E004701AC /* Calculator.m in Sources */,
 				1EF2D3631D108123006C2BE2 /* AppDelegate.m in Sources */,
 				1EF2D3601D108123006C2BE2 /* main.m in Sources */,
 			);
