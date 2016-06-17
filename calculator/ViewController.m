@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Calculator.h"
 
 @interface ViewController ()
 
@@ -54,25 +55,40 @@
 - (void)addNumbers{
     float a = self.firstText.text.floatValue;
     float b = self.secondText.text.floatValue;
-    self.resultText.text= [NSString stringWithFormat:@"%f",a+b];
+    
+    Calculator *calc = [Calculator new];
+    
+    float addresult = [calc add:a secondNumber:b];
+    float subtractresult = [calc subtract:a secondNumber:b];
+    float multiplyreuslt = [calc multiply:a secondNumber:b];
+    float divideresult = [calc divide:a secondNumber:b];
+    
+    
+    self.resultText.text= [NSString stringWithFormat:@"%f",addresult];
 }
 
 - (void)subtractNumbers{
     float a = self.firstText.text.floatValue;
     float b = self.secondText.text.floatValue;
-    self.resultText.text= [NSString stringWithFormat:@"%f",a-b];
+    Calculator *calc = [Calculator new];
+    self.resultText.text= [NSString stringWithFormat:@"%f",[calc subtract:a secondNumber:b]];
 
 }
 
 - (void)multiplyNumbers{
     float a = self.firstText.text.floatValue;
     float b = self.secondText.text.floatValue;
-    self.resultText.text= [NSString stringWithFormat:@"%f",a*b];
+    Calculator *calc = [Calculator new];
+    float multiplyresult = [calc multiply:a secondNumber:b];
+    self.resultText.text= [NSString stringWithFormat:@"%f",multiplyresult];
 
 }
 - (void)divideNumbers{
     float a = self.firstText.text.floatValue;
     float b = self.secondText.text.floatValue;
-    self.resultText.text= [NSString stringWithFormat:@"%f",a/b];
+    Calculator *calc = [Calculator new];
+float divideresult = [calc divide:a secondNumber:b];
+    
+    self.resultText.text= [NSString stringWithFormat:@"%f",divideresult];
 }
  @end

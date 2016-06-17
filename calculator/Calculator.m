@@ -2,7 +2,7 @@
 //  Calculator.m
 //  calculator
 //
-//  Created by Bryan  Miller on 6/15/16.
+//  Created by Bryan  Miller on 6/16/16.
 //  Copyright © 2016 Bryan  Miller. All rights reserved.
 //
 
@@ -10,9 +10,25 @@
 
 @implementation Calculator
 
--(double)add (double)firstnumber secondnumber;(double)
+-(double) add:(double) firstNumber secondNumber:(double) secondNumber{
+    return firstNumber + secondNumber;
+}
 
+-(double) subtract:(double) firstNumber secondNumber:(double) secondNumber{
+    return firstNumber - secondNumber;
 
+}
+                                                      
+                                                
+-(double) multiply:(double) firstNumber secondNumber:(double) secondNumber{
+    return firstNumber * secondNumber;
+    
+}
+                                                      
+-(double) divide:(double) firstNumber secondNumber:(double) secondNumber{
+    
+    return firstNumber / secondNumber;
+    
+}
 
 @end
-
